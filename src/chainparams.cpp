@@ -132,10 +132,10 @@ public:
         assert(hashGenesisBlock == uint256("0x000008541677f4ce924c4db17170d2e0a090cb7741905f1f8eb5cba3299914dd"));
         assert(genesis.hashMerkleRoot == uint256("0x6e7d125c34de4900eebd6e50addb772ed22fb8191a778f8dca479e52db7a0447"));
 
-        vSeeds.push_back(CDNSSeedData("207.148.19.144", "207.148.19.144"));
-        vSeeds.push_back(CDNSSeedData("108.61.202.232", "108.61.202.232"));
-        vSeeds.push_back(CDNSSeedData("45.76.24.149", "45.76.24.149"));
-	vSeeds.push_back(CDNSSeedData("149.28.114.83", "149.28.114.83"));
+        vSeeds.push_back(CDNSSeedData("45.77.126.29", "45.77.126.29"));
+        vSeeds.push_back(CDNSSeedData("207.246.99.22", "207.246.99.22"));
+        vSeeds.push_back(CDNSSeedData("144.202.112.234", "144.202.112.234"));
+	    vSeeds.push_back(CDNSSeedData("5.189.166.55", "5.189.166.55"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 23);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 83);
@@ -157,7 +157,7 @@ public:
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "04FCB2AC4470656450326EE36711828EF64D162F88BB5BA7C5AAEE3CF0331ED493737158D3F4F844B4609FADB3DEC092892090697B1101750AD90A9873EC603577";
+        strSporkKey = "0364c097a4918d5a97b408d473e2735f4415cad5a44494feb5b18e82964683c28a";
         strObfuscationPoolDummyAddress = "AJ4HhEc82t4x3y3zKcfaLyBnDsu5nSe94P";
         nStartMasternodePayments = 1532008046;
     }
